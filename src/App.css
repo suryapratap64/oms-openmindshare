@@ -1,0 +1,91 @@
+.app-container {
+  display: flex;
+}
+.ft {
+  margin-top: 90vh;
+  display: block;
+ 
+  width: 100%;
+}
+
+.content {
+  width: 100%;
+}
+
+.sidebar {
+  min-height: 800px;
+ 
+}
+
+.post-card {
+  margin: 30px 50px;
+  width: 900px;
+  border-radius: 12px;
+}
+.about{
+  display: block;
+  border-radius: 12px;
+ 
+  height: 500px;
+  width: 400px;
+  position: absolute;
+  margin:  35px 999px;
+  background-color: rgb(178 182 189);
+  font-size: 25px;
+  color: rgb(76, 76, 76);
+}
+
+.hashtag {
+  margin: 0px 3px;
+}
+
+.reactions {
+  margin: 15px 0 0 0;
+}
+
+.create-post {
+  width: 800px;
+  margin-top: 50px;
+  margin-left: 10%;
+  border-radius: 2%;
+ 
+
+}
+.oms{
+  color: rgb(167, 156, 0);
+}
+.card-body {
+  background-color: rgb(178 182 189);
+  border-radius: 12px;
+}
+.logo {
+  height: 60px;
+  width: 60px;
+ 
+  position: inherit;
+  display: block;
+  border-radius: 50%;
+}
+.nav-link {
+  font-size: 25px;
+  
+}
+.nav-link:hover {
+  transform: scale(1.1); 
+  text-decoration: underline;
+  color: yellow; 
+}
+.sidebar{
+  
+    display: flex; 
+    flex-direction: column;
+    flex-shrink: 0; 
+    height: 100vh; 
+    padding: 1rem;
+    background-color: #24272a; 
+    color: #ffffff; 
+    text-align: center; 
+   
+  
+}
+
